@@ -15,24 +15,26 @@ File: cypress/e2e/tests.js
 This test suite contains tests for validating subscription packages on the STC TV subscription page.
 
 Test Details
-Countries Tested:
 
+Countries Tested:
 Saudi Arabia (SAR)
 Bahrain (BHD)
 Kuwait (KWD)
-Subscription Packages:
 
+
+Subscription Packages:
 Lite: Prices - SAR: 15, BHD: 2, KWD: 1.2
 Classic: Prices - SAR: 25, BHD: 3, KWD: 2.5
 Premium: Prices - SAR: 60, BHD: 6, KWD: 4.8
+
 How It Works
+
 Visit the STC TV Subscription Page:
-
 URL: https://subscribe.stctv.com/sa-en
+
 Select a Country:
-
 Click on the country dropdown and choose the desired country.
-Validate Subscription Packages:
 
+Validate Subscription Packages:
 For each subscription package (Lite, Classic, Premium), the test ensures the correct type, price, and currency are displayed.
 
